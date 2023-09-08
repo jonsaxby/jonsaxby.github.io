@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+table {
+    margin: auto;
+	border-spacing: 2em;
+	font-size: 5em;
+}
+
+td {
+	color: red;
+	border: 5 solid black;
+}
+
+tr {
+	padding: 20%;
+}
+	
