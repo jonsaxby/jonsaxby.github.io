@@ -9,16 +9,11 @@ h1 {
 
 table {
     margin: auto;
-	border-spacing: 2em;
+	border-spacing: 1.5em;
 	font-size: 5em;
 }
 
 td {
 	color: red;
 	font-size: 2.5em;
-}
-
-tr {
-	padding: 20%;
-}
-	
+}	
