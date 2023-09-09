@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Network Outage Timer</title>
+<title>Style Guide</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -16,11 +16,8 @@
     var now = new Date().getTime();
     
     // Find the distance between now and the count down date
-    var pTimeRaw = pLastDate - now;
-	var mTimeRaw = mLastDate - now;
-	
-	var pTime = Math.abs(pTimeRaw);
-	var mTime = Math.abs(mTimeRaw);
+    var pTime = now - pLastDate;
+	var mTime = now - mLastDate;
     
     // Time calculations for days, hours, minutes and seconds
     var pDays = Math.floor(pTime / (1000 * 60 * 60 * 24));
@@ -39,12 +36,12 @@
 
 <table>
 <tr>
-    <th><p>Paul</p></th>
-    <th><p>Mark</p></th>
+    <th>Paul</th>
+    <th>Mark</th>
 </tr>
 <tr>
-    <td><p id="Paul"></p></td>
-    <td><p id="Mark"></p></td>
+    <td id="Paul"></td>
+    <td id="Mark"></td>
 </tr>
 </table>
 
