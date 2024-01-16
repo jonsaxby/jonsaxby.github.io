@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+	text-align: center;
 	font-family: Helvetica;
 }
 
@@ -9,7 +9,7 @@ h1 {
 
 table {
 	margin: auto;
-	font-size: 10rem;
+	font-size: 9rem;
 	border-spacing: 10rem 2rem;
 }
 
