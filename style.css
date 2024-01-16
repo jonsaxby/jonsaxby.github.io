@@ -4,13 +4,13 @@ body {
 }
 
 h1 {
-	font-size: 7rem;
+	font-size: 5rem;
 }
 
 table {
 	margin: auto;
-	font-size: 5rem;
-	border-spacing: 9rem 2rem;
+	font-size: 4rem;
+	border-spacing: 8rem 2rem;
 }
 
 td {
