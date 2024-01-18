@@ -10,7 +10,7 @@
 	// Date of last breakage
 	var pLastDate = new Date("october 23, 2023 00:00:00").getTime();
 	var mLastDate = new Date("august 16, 2023 00:00:00").getTime();
-	var rLastDate = new Date("january 16, 2024 00:00:00").getTime();
+	//var rLastDate = new Date("january 16, 2024 00:00:00").getTime();
 	
 var x = setInterval(function()
 {
@@ -20,17 +20,17 @@ var x = setInterval(function()
 	// Find the difference between now and the count down date
 	var pTime = now - pLastDate;
 	var mTime = now - mLastDate;
-	var rTime = now - rLastDate;
+	//var rTime = now - rLastDate;
     
 	// Time calculations for days, hours, minutes and seconds
 	var pDays = Math.floor(pTime / (1000 * 60 * 60 * 24));
 	var mDays = Math.floor(mTime / (1000 * 60 * 60 * 24));
-	var rDays = Math.floor(rTime / (1000 * 60 * 60 * 24));
+	//var rDays = Math.floor(rTime / (1000 * 60 * 60 * 24));
     
 	// Display the result in the element with id="demo"
 	document.getElementById("Paul").innerHTML = pDays;
 	document.getElementById("Mark").innerHTML = mDays;
-	document.getElementById("Ryan").innerHTML = rDays;
+	//document.getElementById("Ryan").innerHTML = rDays;
     
 }, 1000);
 </script>
@@ -64,8 +64,8 @@ var x = setInterval(function()
 <tr>
 	<td></td>
 	<td id="Paul"></td>
-	<td id="Ryan"></td>
-	<td><p>Under<br>dispute</p></td>
+	<td id="Ryan">Never</td>
+	<td id="note">Under<br>dispute</td>
 </tr>	
 </table>
 
