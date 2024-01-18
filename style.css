@@ -16,3 +16,7 @@ table {
 td {
 	color: red;
 }
+
+#note {
+	font-size: 2rem;
+}
